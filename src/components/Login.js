@@ -6,9 +6,9 @@ function Login() {
 
     const handleSubmit = () => {
         console.log("submitting the Login form data:", name, password)
-        // Simple Authorization
-        //if(name === "" || password === "") alert('Please fill the credentials.')
-        //else {
+        //Simple Authorization
+        if(name === "" || password === "") alert('Please fill the credentials.')
+        else {
             // Get the array of userdata from localStorage
             let userArrfromLS = JSON.parse(localStorage.getItem("user"))
             console.log("userArrfromLS:", userArrfromLS)
@@ -33,7 +33,7 @@ function Login() {
                     break;
                 }
             }
-        //}
+        }
     }
 
     return (
