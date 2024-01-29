@@ -1,3 +1,9 @@
+
+This is a basic signup and login page made in React. It uses LocalStorage to store data.
+
+
+************************************************************************************************
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
