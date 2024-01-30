@@ -6,7 +6,7 @@ function SignUp() {
 
     const handleSubmit = () => {
         console.log("submitting the signup form data:", name, password)
-        // Simple Authentication
+        // Simple validation
         if(name === "" || password === "") alert('Please fill the credentials.')
         else {
             let userArrfromLS = []
