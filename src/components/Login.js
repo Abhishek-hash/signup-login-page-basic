@@ -6,7 +6,7 @@ function Login() {
 
     const handleSubmit = () => {
         console.log("submitting the Login form data:", name, password)
-        //Simple Authorization
+        //Simple validation
         if(name === "" || password === "") alert('Please fill the credentials.')
         else {
             // Get the array of userdata from localStorage
